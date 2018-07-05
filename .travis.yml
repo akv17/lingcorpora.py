@@ -6,7 +6,8 @@ notifications:
     on_success: never
     on_failure: never
 before_install:
-  - python setup.py install
+  - "pip install -U pip"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
 install:
   - pip install bs4
   - pip install requests
