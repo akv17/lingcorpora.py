@@ -1,8 +1,10 @@
 language: python
+python:
+  - "3.5"
 install:
   - pip install bs4
   - pip install requests
   - pip install lxml
   - pip install tqdm
 script:
-  - test_lingcorpora/test_lc.py
+  - python test_lingcorpora/test_lc.py
