@@ -7,7 +7,7 @@ from random import randint
 from tqdm import tqdm
 
 sys.path.insert(0, os.path.abspath('..'))
-from lingcorpora.corpus import Corpus, functions
+from ..lingcorpora.corpus import Corpus, functions
 
 
 __author__ = 'akv17'
