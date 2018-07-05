@@ -6,5 +6,6 @@ install:
   - pip install requests
   - pip install lxml
   - pip install tqdm
+  - pip install lingcorpora
 script:
   - python test_lingcorpora/test_lc.py
