@@ -180,7 +180,7 @@ def run(funcs_to_test=None, tests_to_run=None, stream=None, verbosity=2):
     runner = unittest.TextTestRunner(stream, verbosity=verbosity)
 
     for LANG, FUNC in funcs_to_test.items():
-        stream.write(log_header % ('=' * 20, LANG, '=' * 20))
+        stream.write(log_header % ('\n*' * 20, LANG, '*' * 20))
 
         suite = unittest.TestSuite()
         routine = TestLangFunc
