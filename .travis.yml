@@ -14,4 +14,4 @@ install:
   - pip install lxml
   - pip install tqdm
 script:
-  - python lingcorpora/test_lc.py
+  - python test_lingcorpora/test_lc.py
