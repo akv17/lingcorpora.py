@@ -6,7 +6,6 @@ notifications:
     on_success: never
     on_failure: never
 before_install:
-  - pip install -U pip
   - python setup.py install
 install:
   - pip install bs4
